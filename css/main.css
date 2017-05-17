@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+body{
+  font-family: "proxima-nova-soft",sans-serif;
+  margin: 0;
+  color: white;
+}
+#cleaning-checklist{
+  background-color: #3498DB;
+}
+#cleaning-checklist h1{
+  font-size: 2.8em;
+  font-weight: 600;
+}
+#cleaning-checklist p{
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.checklist{
+  background-color: white;
+  color: #494949;
+}
+.checklist div{
+  padding: 10px;
+}
+.check{
+  color: #6EA43F;
+  padding-right: 15px;
+}
+.item-checklist{
+  padding: 15px 30px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+}
