@@ -6,37 +6,43 @@
 body{
   font-family: "proxima-nova-soft",sans-serif;
   margin: 0;
+}
+.section{
+  padding: 40px 0;
+}
+.bg-humo{
+  background-color: #eeeeee;
+}
+.bg-skyblue{
+  background-color: #3498db;
+}
+.white{
   color: white;
 }
-#cleaning-checklist{
-  background-color: #3498DB;
-}
-#cleaning-checklist h1{
-  font-size: 2.8em;
+h1{
+  font-size: 5rem;
   font-weight: 600;
 }
-#cleaning-checklist p{
+.subtitulo{
+  margin-bottom: 40px;
+}
+/*cleaning checklist*/
+p{
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: 1px;
   margin-top:10px;
 }
-.checklist{
-  background-color: white;
-  color: #494949;
-  margin-bottom: 30px;
-  border-radius: 3px;
-}
-.checklist div{
+.panel div{
   padding: 10px;
 }
 .check{
-  color: #6EA43F;
+  color: #6ea43f;
   padding-right: 15px;
 }
 .item-checklist{
   padding: 15px 30px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #eee;
   display: flex;
   justify-content: initial;
   align-items: center;
@@ -56,4 +62,51 @@ body{
   .laundry{
     height: 400px;
   }
+}
+/*footer*/
+footer li{
+  padding: 10px;
+  display: inline-block;
+}
+@media (max-width:700px){
+  footer li{
+    display: block;
+  }
+}
+footer a,
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 1100px){
+  .laundry{
+    height: 400px;
+  }
+}
+.bg-social{
+  background-color: #1280c9;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 30px;
+}
+.logo{
+  width: 120px;
+}
+.red-social{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-size: cover;
+  background-color: #1280c9;
+  border-radius: 50%;
+  transition: background-color 0.2s linear;
+  margin: 20px 5px 40px 5px;
+}
+.red-social:hover{
+  background-color: #0e629a;
+  text-decoration: none;
+}
+.abn{
+  margin-left: 100px;
 }
