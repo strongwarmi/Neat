@@ -40,6 +40,54 @@ p{
   justify-content: flex-start;
   align-items: center;
 }
+/*our promise*/
+.promise{
+  margin: auto;
+}
+.promise span {
+padding: 30px 46px;
+}
+.font-tittle{
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.font-tittle-subTittle{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.font-success{
+  font-size: 18px;
+  font-weight: 600;
+}
+.font-gray{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+.img-content{
+  width: 74px;
+  height: 78px;
+  display: inline-block;
+  overflow: auto;
+  position: relative;
+}
+
+.img-content i {
+  padding: 39px 37px;
+  position: absolute;
+}
+.col-promise {
+  padding: 0 42px;
+  text-align: center;
+}
+.icono-promise{
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
 /*cleaning checklist*/
 .panel div{
   padding: 10px;
