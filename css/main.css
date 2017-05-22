@@ -16,23 +16,26 @@ body{
 .bg-skyblue{
   background-color: #3498db;
 }
+.text-skyblue{
+  color: #3498db;
+}
 .white{
   color: white;
 }
 h1{
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
 }
 .subtitulo{
   margin-bottom: 40px;
 }
-/*cleaning checklist*/
 p{
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: 1px;
   margin-top:10px;
 }
+/*cleaning checklist*/
 .panel div{
   padding: 10px;
 }
@@ -109,4 +112,44 @@ footer a:hover{
 }
 .abn{
   margin-left: 100px;
+}
+/*galery*/
+.galery{
+  padding: 0 40px 30px 40px;
+  display: flex;
+}
+.cleaning,
+.img-rotate-left,
+.img-rotate-right{
+  position: relative;
+}
+.cleaning,
+.img-rotate-left{
+  transform: rotateZ(4deg);
+  transition: 0.2s linear;
+}
+.img-rotate-right{
+  transform: rotateZ(-5deg);
+  transition: 0.2s linear;
+}
+.img-rotate-left:hover{
+  transform: rotateZ(10deg);
+}
+.cleaning:hover{
+  transform: rotateZ(0deg);
+}
+.img-rotate-right:hover{
+  transform: rotateZ(-10deg);
+}
+.cleaner{
+  left: -30px;
+}
+.cleaning{
+  left: -55px;
+}
+.window{
+  left: -80px;
+}
+.exit{
+  left: -104px;
 }
