@@ -8,7 +8,7 @@ body{
   margin: 0;
 }
 .section{
-  padding: 40px 0;
+  padding: 50px 0;
 }
 .bg-humo{
   background-color: #eeeeee;
@@ -34,6 +34,11 @@ p{
   font-weight: bold;
   letter-spacing: 1px;
   margin-top:10px;
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 /*cleaning checklist*/
 .panel div{
@@ -66,6 +71,19 @@ p{
     height: 400px;
   }
 }
+/*get your quote*/
+.icon-property{
+  opacity: 0.5;
+  margin-right: 10px;
+}
+.icon-property:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.icon-property:active{
+  opacity: 1;
+  border: 2px solid #3498db;
+}
 /*footer*/
 footer li{
   padding: 10px;
@@ -86,25 +104,21 @@ footer a:hover{
     height: 400px;
   }
 }
-.bg-social{
-  background-color: #1280c9;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  margin-bottom: 30px;
-}
 .logo{
   width: 120px;
 }
+.red-social{
+  background-color: #1280c9;
+  margin: 20px 5px 40px 5px;
+}
+.icon-property,
 .red-social{
   width: 50px;
   height: 50px;
   display: inline-block;
   background-size: cover;
-  background-color: #1280c9;
   border-radius: 50%;
-  transition: background-color 0.2s linear;
-  margin: 20px 5px 40px 5px;
+  transition: 0.2s linear;
 }
 .red-social:hover{
   background-color: #0e629a;
