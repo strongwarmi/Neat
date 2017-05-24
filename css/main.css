@@ -13,6 +13,9 @@ body{
 .bg-humo{
   background-color: #eeeeee;
 }
+.bg-humo-light{
+  background-color: #f9f9f9;
+}
 .bg-skyblue{
   background-color: #3498db;
 }
@@ -24,6 +27,10 @@ body{
 }
 h1{
   font-size: 6rem;
+  font-weight: 600;
+}
+h2{
+  font-size: 4.5rem;
   font-weight: 600;
 }
 .subtitulo{
@@ -39,6 +46,47 @@ p{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+/*header*/
+.alert {
+  position: fixed;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #ED7161;
+  text-align: center;
+  z-index: 500;
+  padding: 0.5%;
+}
+.btn-x{
+  background-color: transparent;
+  border: 0;
+  right: 0;
+}
+/*servicios*/
+.bg-icon-service {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  background-color: #FFCC66;
+  border-radius: 50%;
+}
+.icon-service {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+#how-it-works p{
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  line-height: 35px;
 }
 /*our promise*/
 .promise{
